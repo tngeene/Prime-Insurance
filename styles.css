@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+:root {
+  --light-black: #334d5e;
+  --light-grey: #646464;
+  --silver:  #d6dbdf; 
+  --grey: #d7d7d7;
+  --yellow: #f8d207;
+  --light-blue: #159fdb;
+  --white: #fff;
+}
+
+html, body {
+    height: 100% ;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: var(--light-grey);
+  }
+
+
+  #contact-claim {
+    position: relative;
+    top: 100%;
+    z-index: 900;
+    background: var(--light-blue);
+    line-height: 20px;
+    font-family: 'Open Sans',sans-serif;
+  }
+  .carousel-caption .btn{
+    border-radius: 0.625rem;
+  }
+
+  .carousel-caption a:hover {
+    outline: none !important;
+    background: none !important;
+  }
+
+  .carousel-indicators li {
+    border-radius: 50%;
+    width: 0.75rem;
+    height: 0.75rem;
+    opacity: 0.5;
+  }
+   .home-contact p {
+    margin-top: 2.25rem;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: var(--light-blue);
+   }
+   .home-contact .btn {
+    margin-top: 2rem;
+    border-radius: 0.625rem;
+    font-size: 0.875rem;
+    background-color: var(--light-black);
+  }
+
+  .section.about h3 {
+    font-weight: 400;
+    color: var(--light-black);
+  }
+
+  .service-badges .badge {
+    margin-left: 0.4rem;
+    height: 3.5rem;
+    text-align: center;
+    line-height: 5;
+    padding: 13px 20px;
+    border-radius: 0 !important;
+    cursor: pointer;
+  }
+  span img {
+    height: 3.5rem;
+  }
+
+  .claims-section .left {
+    z-index: 1;
+    height: 329px;
+    background-image: url('img/man-blue.jpg');
+  }
+  .claims-section .right {
+    z-index: 1;
+    height: 329px;
+    width: 100%;
+    background-image: url('img/office-yellow.jpg');
+  }
+  .claims-caption {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    top: 40%;
+    z-index: 2;
+    line-height: 20px;
+    font-family: 'Open Sans',sans-serif;
+  }
+
+  .claims-caption p {
+    margin-bottom: 2.5rem;
+    font-size: 1.9375rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+  }
+  .claims-caption .btn {
+   border-radius:  0.625rem;
+  }
+  .claims-caption a {
+   text-decoration: none;
+  }
+
+  .section-footer {
+    background: var(--light-black);
+    padding-top: 3.125rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .section-footer input[type=submit] {
+    border: 0.125rem solid var(--light-blue);
+    color: var(--light-blue);
+    background: 0 0;
+    text-transform: uppercase;
+    padding: 10px 15px 7px;
+    float: right;
+    margin-bottom: -0.125rem;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .section-footer input[type=text],input[type=email] {
+    background: 0 0;
+    border: 0;
+    width: 12.5rem;
+    color: #fff;
+    float: left;
+    margin-top: 0.3125rem;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .section-footer #search-form label, #newsletter label {
+    color: #fff;
+    margin-right: 1.25rem;
+    margin-top: 0.5625rem;
+    float: left;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .clearfix::before {
+    content: '';
+    width:27.6875rem;
+    height: 0.0625rem;
+    background: var(--light-grey);
+    display: block;
+    transform: translateY(2.2875rem);
+  }
+  .pull-left {
+    float: left!important;
+  }
+  .footerlogo {
+    padding-top: 20px;
+    padding-right: 50px;
+  }
+  .footerlogo svg {
+    width: 168px;
+    height: 37px;
+  }
+  .linklist {
+    padding-right: 30px;
+    max-width: 200px;
+  }
+  .menu-links  ul li a {
+    color: var(--white);
+  }
+  .claim-number {
+    background: 0 0;
+    position: relative;
+    max-width: 230px;
+    top: auto;
+    right: auto;
+    color: var(--yellow);
+    line-height: 25px;
+    float: right;
+    padding: 20px 0 0;
+}
+.claim-number span {
+  display: block;
+}
+.claim-number a {
+  color: var(--yellow);
+}
+.social-links {
+  padding-top: 25px;
+  padding-right: 30px;
+}
+.social-links a {
+  margin: 0 0 0 10px;
+  text-decoration: none!important;
+}
+.social-links svg {
+  width: 40px;
+  height: 40px;
+  transition: transform 50ms linear;
+}
+.ribbon-section {
+   background: var(--light-blue);
+    padding: 10px;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 20px;
+}
+.header-banner {
+  background-image: url('img/contact-banner.jpg');
+  height: 20.25rem;
+  z-index: 1;
+}
+
+.header-banner #bannerCaption {
+    position: absolute;
+    width: 80%;
+    max-width: 31.25rem;
+    top: 27%;
+    z-index: 2;
+    line-height: 1.25rem;
+    font-family: 'Open Sans',sans-serif;
+}
+#bannerCaption p {
+    font-weight: 300;
+    line-height: 2.95rem;
+    font-size: 2.8125rem;
+    color: var(--white);
+}
+.contact-content {
+  margin-top: 8rem;
+}
+.contact-content h3::after {
+  content: ' ';
+  background: var(--yellow);
+  width: 50%;
+  height: 9px;
+  margin: 20px auto 0;
+  display: block;
+}
+.contact-form {
+  background: var(--grey);
+  height: 680px;
+  padding: 50px;
+}
+.form-group input[type=email] {
+  background: var(--white);
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+.contact-submit-btn {
+  border-radius: 0.625rem;
+  background: var(--light-blue);
+  height: 2.5rem;
+  outline: none;
+  border: none;
+}
+.branches-section {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  padding-left: 7rem;
+}
+ ul.branch-list li {
+   list-style: none;
+ }
+
+ ul.branch-list {
+  border-right: 1px solid var(--silver);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+ }
+ .branches-section h4::after {
+   content: '';
+   background: var(--yellow);
+   width: 50%;
+   height: 0.125rem;
+   margin: 1.25rem auto 0;
+   display: block;
+ }
+
+ #btn-cta {
+  color: var(--white);
+  right: 20px;
+  padding: 10px 10px 10px 15px;
+  border-left: 9px solid var(--yellow);
+  z-index: 999;
+  transform-origin: bottom right;
+  transform: rotate(-90deg);
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 26px;
+ }
+ #btn-cta, #quote-cta {
+  position: fixed;
+  top: 25%;
+  right: 0;
+  background: var(--light-blue);
+}
+#contactClaim {
+  position: absolute;
+    top: 100%;
+    z-index: 900;
+    background: #f8d207;
+    line-height: 20px;
+    font-family: 'Open Sans',sans-serif;
+    left: 3%;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 18px;
+}
