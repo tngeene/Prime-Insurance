@@ -217,6 +217,11 @@ html, body {
   height: 20.25rem;
   z-index: 1;
 }
+.about-banner {
+  background-image: url('img/slider-1.jpg');
+  height: 20.25rem;
+  z-index: 1;
+}
 
 .header-banner #bannerCaption {
     position: absolute;
@@ -226,6 +231,16 @@ html, body {
     z-index: 2;
     line-height: 1.25rem;
     font-family: 'Open Sans',sans-serif;
+}
+
+.about-banner #bannerCaption {
+  position: absolute;
+  width: 80%;
+  max-width: 33.25rem;
+  top: 23%;
+  z-index: 2;
+  line-height: 1.25rem;
+  font-family: 'Open Sans',sans-serif;
 }
 #bannerCaption p {
     font-weight: 300;
@@ -241,13 +256,18 @@ html, body {
   background: var(--yellow);
   width: 50%;
   height: 9px;
-  margin: 20px auto 0;
+  margin: 1.25rem auto 0;
   display: block;
+}
+.contact-form-1 {
+  background: var(--grey);
+  height: 12.5rem;
+  padding: 3.125rem;
 }
 .contact-form {
   background: var(--grey);
-  height: 680px;
-  padding: 50px;
+  height: 42.5rem;
+  padding: 3.125rem;
 }
 .form-group input[type=email] {
   background: var(--white);
@@ -316,4 +336,25 @@ html, body {
     padding: 10px;
     font-weight: 300;
     font-size: 18px;
+}
+.prime-svgs  svg{
+    width: 280px;
+    height: 45px;
+    margin-top: 60px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.history {
+  background-color: var(--light-black);
+  height: 54.6875rem;
+}
+.ownership {
+  background-color: var(--light-blue);
+  height: 54.6875rem;
+}
+
+.history , .ownership {
+  padding: 7rem;
 }
